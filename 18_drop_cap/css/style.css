@@ -1,0 +1,8 @@
+.container:first-letter{float: left;
+ line-height: 1;
+ margin: 0 8px 0 0;
+ padding: 0 8px;
+ font-size:50px;
+ font-weight:700;
+
+}

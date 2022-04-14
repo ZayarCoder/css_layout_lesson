@@ -1,0 +1,13 @@
+.avatars {
+ display: flex;
+}
+.avatars__item {
+ margin-left: -4px;
+}
+.avatars__image {
+ box-shadow: 0 0 0 4px #fff;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ border-radius: 9999px;
+}

@@ -1,0 +1,27 @@
+.container {
+                        position: relative;
+                    }
+
+                    .container__corner {
+                        position: absolute;
+                    }
+
+                    .container__corner--tl {
+                        left: 0;
+                        top: 0;
+                    }
+
+                    .container__corner--tr {
+                        top: 0;
+                        right: 0;
+                    }
+
+                    .container__corner--br {
+                        bottom: 0;
+                        right: 0;
+                    }
+
+                    .container__corner--bl {
+                        bottom: 0;
+                        left: 0;
+                    }

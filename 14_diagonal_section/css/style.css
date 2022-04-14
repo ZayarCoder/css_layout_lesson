@@ -1,0 +1,13 @@
+.container{
+ position: relative;
+}
+.container__diagonal{
+ left: 0px;
+ position: absolute;
+top: 0px; 
+height: 100%;
+width: 100%;
+transform: skewY(-5deg);
+background-color: rgba(0, 0, 0, 0.3);
+z-index: -1;
+}

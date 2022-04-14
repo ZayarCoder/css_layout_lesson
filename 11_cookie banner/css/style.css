@@ -1,0 +1,12 @@
+.banner{
+ bottom: 0;
+ left: 0;
+ position: fixed;
+ width: 100%;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+}
+.banner__content{
+ flex: 1;
+}
