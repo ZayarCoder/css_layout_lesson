@@ -1,0 +1,19 @@
+:root{
+ --inverted-corners-background: #52525b;
+ --inverted-corners-size: 2rem;
+}
+.inverted-corners{
+ background-color: var(--inverted-corners-background);
+ position: relative;
+}
+.inverted-corners::before{
+ content: '';
+ bottom: calc(-2 * var(--inverted-corners-size));
+ left: 0;
+ position: absolute;
+ height: calc(2 * var(--inverted-corners-size));
+ width: var(--inverted-corners-size);
+ background-color: transparent;
+ border-top-left-radius: var(--inverted-corners-size);
+ box-shadow: var(--inverted-corners-background) 0px calc(-1 * var(--inverted-corners-size)) 0px 0px;
+}

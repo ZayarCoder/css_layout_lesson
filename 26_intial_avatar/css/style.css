@@ -1,6 +1,16 @@
-.avatar{
- display: inline-block;
- vertical-align: middle;
- position: relative;
- background-color: rgba(0, 0, 0, 0.3);
+.avatar {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+.avatar__letters {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
