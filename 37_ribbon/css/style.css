@@ -1,0 +1,33 @@
+.container{
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ background-color: #bbb;
+ height: 32px;
+position: relative;
+}
+.container__side{
+ bottom: -8px;
+ position: absolute;
+ z-index: -1;
+ border: 16px solid #ccc;
+ border-left-color: transparent;
+}
+.container__side--left{
+ left: -24px;
+}
+.container__triangle{
+ position: absolute;
+ top: 100%;
+ border: 8px solid transparent;
+ border-bottom-width: 0;
+ border-top-color: #aaa;
+}
+.container__triangle--left{
+ border-right: 0;
+ left: 0;
+}
+.container__triangle--right{
+ border-left-width: 0;
+ right: 0;
+}

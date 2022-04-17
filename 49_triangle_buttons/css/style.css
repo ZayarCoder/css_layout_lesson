@@ -1,0 +1,27 @@
+.container{
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ padding: 8px;
+}
+.container__triangle{
+ border-style: solid;
+ height: 0px;
+ width: 0px;
+}
+.container__triangle--up{
+ border-color: transparent transparent rgba(0, 0, 0, 0.3);
+ border-width:  0px 8px 8px;
+}
+.container__triangle--right{
+ border-color: transparent transparent rgba(0, 0, 0, 0.3);
+ border-width: 8px 0px 8px 8px;
+}
+.container__triangle--down{
+ border-color: rgba(0, 0, 0, 0.3) transparent transparent;
+ border-width: 8px  8px 8px;
+}
+.container__triangle--left{
+ border-color: transparent rgba(0, 0, 0, 0.3) transparent transparent;
+ border-width: 8px 8px 8px 0px;
+}

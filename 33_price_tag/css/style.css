@@ -1,0 +1,38 @@
+:root{
+ --price-tag-background: rgba(0, 0, 0, 0.3);
+ --price-tag-height:2rem;
+}
+.price-tag{
+ background: var(--price-tag-background);
+ color: #fff;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ height: var(--price-tag-height);
+ padding: 0.25rem 0.5rem;
+}
+.price-tag::before{
+ content: '';
+ border-color: transparent var(--price-tag-background) transparent transparent;
+ border-style: solid;
+ border-width: calc(var(--price-tag-height) / 2) calc(var(--price-tag-height) / 2)
+calc(var(--price-tag-height) / 2) 0rem;
+
+ left: 0px;
+ position: absolute;
+ top: 0px;
+ transform: translate(-100%, 0px);
+
+}
+.price-tag::after{
+ content: '';
+ background: #fff;
+ border-radius: 9999rem;
+ left: 0;
+ position: absolute;
+ top: 50%;
+ transform: translate(-0.5rem, -50%);
+ height: 0.5rem;
+ width: 0.5rem;
+}

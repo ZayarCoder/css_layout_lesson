@@ -1,0 +1,14 @@
+.container{
+ align-items: center;
+ display: inline-flex;
+ flex-direction: column;
+}
+.container__value{
+ font-size: 4rem;
+ font-weight: 500;
+}
+.container__lable{
+ font-size: 1rem;
+ font-weight: 700;
+ text-transform: uppercase;
+}

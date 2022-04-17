@@ -1,0 +1,11 @@
+.container{
+ background-color: #ccc;
+ background-image: radial-gradient(#fff 50%, transparent 50%);
+ background-position: -5px -5px;
+ background-repeat: repeat;
+ background-size: 10px 10px;
+ padding: 5px;
+}
+.container__inner{
+ background-color: #ccc;
+}

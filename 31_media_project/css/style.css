@@ -1,0 +1,13 @@
+.container {
+ align-items: start;
+ display: flex;
+
+}
+.container__media {
+ margin-right: 16px;
+ width: 200px;
+
+}
+.container__content {
+ flex: 1;
+}

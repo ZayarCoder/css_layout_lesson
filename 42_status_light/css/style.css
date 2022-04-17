@@ -1,0 +1,15 @@
+.container{
+ align-items: center;
+ display: flex;
+
+}
+.container__status{
+ background-color: rgb(66, 153, 225);
+ border-radius: 9999px;
+ height: 8px;
+ width: 8px;
+ margin-right: 8px;
+}
+.container__content{
+ flex: 1;
+}

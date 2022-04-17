@@ -1,0 +1,13 @@
+.container{
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ border: 2px solid rgba(0, 0, 0, 0.3);
+ border-radius: 0px 50% 50% 50%;
+ transform: rotate(45deg);
+ height: 64px;
+ width: 64px;
+}
+.container__content{
+ transform: rotate(-45deg);
+}

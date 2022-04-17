@@ -1,0 +1,35 @@
+.container{
+ position: relative;
+
+}
+.container__line{
+ border-right: 2px solid #aaa;
+ left: 16px;
+ position: absolute;
+ top:0px;
+ height: 100%;
+}
+.container__items{
+ list-style-type: none;
+ margin: 0px;
+ padding: 0px;
+}
+.container__items{
+ margin-bottom: 8px;
+}
+.container__top{
+ align-items: center;
+ display: flex;
+}
+.container__circle{
+ background-color: rgb(170, 170, 170);
+ border-radius: 9999px;
+ height: 32px;
+ width: 32px;
+}
+.container__title{
+ flex: 1;
+}
+.container__desc{
+ margin-left: 48px;
+}
